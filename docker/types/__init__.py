@@ -1,5 +1,5 @@
 # flake8: noqa
-from .containers import ContainerConfig, HostConfig, LogConfig, Ulimit
+from .containers import ContainerConfig, HostConfig, LogConfig, Ulimit, DeviceRequest
 from .healthcheck import Healthcheck
 from .networks import EndpointConfig, IPAMConfig, IPAMPool, NetworkingConfig
 from .services import (
